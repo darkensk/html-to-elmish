@@ -81,56 +81,56 @@ let attributes: (FSharpName * HtmlName * AttributeType) list =
       "_onanimationend", "onAnimationEnd", AttributeType.Func
       "_onanimationiteration", "onAnimationIteration", AttributeType.Func
       "_ontransitionend", "onTransitionEnd", AttributeType.Func
-      "_defaultchecked", "defaultChecked", AttributeType.Bool
+      "_defaultchecked", "defaultChecked", AttributeType.String
       "_defaultvalue", "defaultValue", AttributeType.String
       "_accept", "accept", AttributeType.String
       "_acceptcharset", "acceptCharset", AttributeType.String
       "_accesskey", "accessKey", AttributeType.String
       "_action", "action", AttributeType.String
-      "_allowfullscreen", "allowFullScreen", AttributeType.Bool
-      "_allowtransparency", "allowTransparency", AttributeType.Bool
+      "_allowfullscreen", "allowFullScreen", AttributeType.String
+      "_allowtransparency", "allowTransparency", AttributeType.String
       "_alt", "alt", AttributeType.String
-      "_ariahaspopup", "aria-haspopup", AttributeType.Bool
-      "_ariaexpanded", "aria-expanded", AttributeType.Bool
-      "_async", "async", AttributeType.Bool
+      "_ariahaspopup", "aria-haspopup", AttributeType.String
+      "_ariaexpanded", "aria-expanded", AttributeType.String
+      "_async", "async", AttributeType.String
       "_autocomplete", "autoComplete", AttributeType.String
-      "_autofocus", "autoFocus", AttributeType.Bool
-      "_autoplay", "autoPlay", AttributeType.Bool
-      "_capture", "capture", AttributeType.Bool
+      "_autofocus", "autoFocus", AttributeType.String
+      "_autoplay", "autoPlay", AttributeType.String
+      "_capture", "capture", AttributeType.String
       "_cellpadding", "cellPadding", AttributeType.Obj
       "_cellspacing", "cellSpacing", AttributeType.Obj
       "_charset", "charSet", AttributeType.String
       "_challenge", "challenge", AttributeType.String
-      "_checked", "checked", AttributeType.Bool
+      "_checked", "checked", AttributeType.String
       "_classid", "classID", AttributeType.String
       "_classname", "className", AttributeType.String
       "_class", "class", AttributeType.String
       "_cols", "cols", AttributeType.Float
       "_colspan", "colSpan", AttributeType.Float
       "_content", "content", AttributeType.String
-      "_contenteditable", "contentEditable", AttributeType.Bool
+      "_contenteditable", "contentEditable", AttributeType.String
       "_contextmenu", "contextMenu", AttributeType.String
-      "_controls", "controls", AttributeType.Bool
+      "_controls", "controls", AttributeType.String
       "_coords", "coords", AttributeType.String
       "_crossorigin", "crossOrigin", AttributeType.String
       "_datetime", "dateTime", AttributeType.String
-      "_default", "default", AttributeType.Bool
-      "_defer", "defer", AttributeType.Bool
+      "_default", "default", AttributeType.String
+      "_defer", "defer", AttributeType.String
       "_dir", "dir", AttributeType.String
-      "_disabled", "disabled", AttributeType.Bool
+      "_disabled", "disabled", AttributeType.String
       "_download", "download", AttributeType.Obj
-      "_draggable", "draggable", AttributeType.Bool
+      "_draggable", "draggable", AttributeType.String
       "_enctype", "encType", AttributeType.String
       "_form", "form", AttributeType.String
       "_formaction", "formAction", AttributeType.String
       "_formenctype", "formEncType", AttributeType.String
       "_formmethod", "formMethod", AttributeType.String
-      "_formnovalidate", "formNoValidate", AttributeType.Bool
+      "_formnovalidate", "formNoValidate", AttributeType.String
       "_formtarget", "formTarget", AttributeType.String
       "_frameborder", "frameBorder", AttributeType.Obj
       "_headers", "headers", AttributeType.String
       "_height", "height", AttributeType.Obj
-      "_hidden", "hidden", AttributeType.Bool
+      "_hidden", "hidden", AttributeType.String
       "_high", "high", AttributeType.Float
       "_href", "href", AttributeType.String
       "_hreflang", "hrefLang", AttributeType.String
@@ -147,7 +147,7 @@ let attributes: (FSharpName * HtmlName * AttributeType) list =
       "_label", "label", AttributeType.String
       "_lang", "lang", AttributeType.String
       "_list", "list", AttributeType.String
-      "_loop", "loop", AttributeType.Bool
+      "_loop", "loop", AttributeType.String
       "_low", "low", AttributeType.Float
       "_manifest", "manifest", AttributeType.String
       "_marginheight", "marginHeight", AttributeType.Float
@@ -159,34 +159,34 @@ let attributes: (FSharpName * HtmlName * AttributeType) list =
       "_method", "method", AttributeType.String
       "_min", "min", AttributeType.Obj
       "_minlength", "minLength", AttributeType.Float
-      "_multiple", "multiple", AttributeType.Bool
-      "_muted", "muted", AttributeType.Bool
+      "_multiple", "multiple", AttributeType.String
+      "_muted", "muted", AttributeType.String
       "_name", "name", AttributeType.String
-      "_novalidate", "noValidate", AttributeType.Bool
-      "_open", "open", AttributeType.Bool
+      "_novalidate", "noValidate", AttributeType.String
+      "_open", "open", AttributeType.String
       "_optimum", "pptimum", AttributeType.Float
       "_pattern", "pattern", AttributeType.String
       "_placeholder", "placeholder", AttributeType.String
       "_poster", "poster", AttributeType.String
       "_preload", "preload", AttributeType.String
       "_radiogroup", "radioGroup", AttributeType.String
-      "_readonly", "readOnly", AttributeType.Bool
+      "_readonly", "readOnly", AttributeType.String
       "_rel", "rel", AttributeType.String
-      "_required", "required", AttributeType.Bool
+      "_required", "required", AttributeType.String
       "_role", "role", AttributeType.String
       "_rows", "rows", AttributeType.Float
       "_rowspan", "rowSpan", AttributeType.Float
       "_sandbox", "sandbox", AttributeType.String
       "_scope", "scope", AttributeType.String
-      "_scoped", "scoped", AttributeType.Bool
+      "_scoped", "scoped", AttributeType.String
       "_scrolling", "scrolling", AttributeType.String
-      "_seamless", "seamless", AttributeType.Bool
-      "_selected", "selected", AttributeType.Bool
+      "_seamless", "seamless", AttributeType.String
+      "_selected", "selected", AttributeType.String
       "_shape", "shape", AttributeType.String
       "_size", "size", AttributeType.Float
       "_sizes", "sizes", AttributeType.String
       "_span", "span", AttributeType.Float
-      "_spellcheck", "spellCheck", AttributeType.Bool
+      "_spellcheck", "spellCheck", AttributeType.String
       "_src", "src", AttributeType.String
       "_srcdoc", "srcDoc", AttributeType.String
       "_srclang", "srcLang", AttributeType.String
@@ -215,19 +215,22 @@ let attributes: (FSharpName * HtmlName * AttributeType) list =
       "_autocorrect", "autoCorrect", AttributeType.String
       "_autosave", "autoSave", AttributeType.String
       "_itemprop", "itemProp", AttributeType.String
-      "_itemscope", "itemScope", AttributeType.Bool
+      "_itemscope", "itemScope", AttributeType.String
       "_itemtype", "itemType", AttributeType.String
       "_itemid", "itemID", AttributeType.String
       "_itemref", "itemRef", AttributeType.String
       "_results", "results", AttributeType.Float
       "_security", "security", AttributeType.String
-      "_unselectable", "unselectable", AttributeType.Bool
+      "_unselectable", "unselectable", AttributeType.String
       // Custom
       "_ariaHidden", "aria-hidden", AttributeType.String
       "_ariaControls", "aria-controls", AttributeType.String
       "_ariaLabel", "aria-label", AttributeType.String
       "_ariaExpanded", "aria-expanded", AttributeType.String
-      "_dataToggle", "data-toggle", AttributeType.String
+      "_dataTarget", "data-target", AttributeType.String
+      "_dataSlideTo", "data-slide-to", AttributeType.String
+      "_dataRide", "data-ride", AttributeType.String
+      "_ariaCurrent", "aria-current", AttributeType.String
        ]
 
 let cssProps: string array =
